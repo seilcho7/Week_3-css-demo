@@ -1,11 +1,24 @@
 /* These are the styles for the whole document. */
-* {
+/* * {
     background: red;
-}
+} */
 
 /* Styles for h1 only. */
 h1 {
     background: blue;
+    /* padding: 35px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px; */
+    /* padding: 10px 35px; */
+
+    /* Top, Right, Bottom, Left */
+    padding: 10px 35px 12px 25px;
+
+
+    margin: 0;
+
 }
 
 /* Easier to manage with class selector. */
@@ -28,3 +41,4 @@ h1 {
     color: rgb(255, 0, 0);
     color: rgba(255, 0, 0, 1.0); */
 }
+
