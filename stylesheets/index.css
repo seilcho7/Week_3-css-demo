@@ -9,7 +9,22 @@ h1 {
 }
 
 /* Easier to manage with class selector. */
-.main-title 
-{
+.main-title {
     background: orange;
+}
+
+.fancy-font, 
+.navbar, 
+.thing, 
+.other-thing 
+{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue; */
+    /* color: red; */
+
+    /* "hex" or "hexidecimal" colors */
+    /* color: #ff0000;
+    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 1.0); */
 }
