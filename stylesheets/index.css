@@ -1,0 +1,15 @@
+/* These are the styles for the whole document. */
+* {
+    background: red;
+}
+
+/* Styles for h1 only. */
+h1 {
+    background: blue;
+}
+
+/* Easier to manage with class selector. */
+.main-title 
+{
+    background: orange;
+}
